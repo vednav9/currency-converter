@@ -1,0 +1,23 @@
+@import "tailwindcss";
+/* For smoother font and layout rendering */
+body {
+  font-family: 'Inter', sans-serif;
+}
+@theme {
+  --color-primary: #22d3ee;     /* Cyan */
+  --color-secondary: #818cf8;   /* Indigo */
+  --color-bg: rgba(255, 255, 255, 0.5);
+
+  --font-display: 'Poppins', sans-serif;
+  --font-body: 'Inter', sans-serif;
+
+  --spacing-18: 4.5rem;
+  --radius-xl: 1rem;
+
+  --breakpoint-md: 48rem;
+}
+
+/* Optional: custom animations */
+@theme {
+  --animate-spin-slow: spin 1.5s linear infinite;
+}
