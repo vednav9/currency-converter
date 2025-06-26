@@ -35,7 +35,7 @@ function App() {
 
   return (
     <div className="min-h-screen bg-cover bg-center flex items-center justify-center p-4"
-      style={{ backgroundImage: "url('./public/background.png')" }}>
+      style={{ backgroundImage: "url('https://m.media-amazon.com/images/I/61n3KvvWOeL.png')" }}>
       <div className="max-w-md w-full bg-white/30 backdrop-blur-md rounded-xl p-6 shadow-lg">
         <h1 className="text-2xl font-bold text-center text-white mb-6">✨ Currency Converter</h1>
 
